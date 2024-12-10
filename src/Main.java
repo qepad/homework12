@@ -14,5 +14,16 @@ public class Main {
         System.out.println(harryPotter.getTitle() + ", новый год публикации - " + harryPotter.getYear());
 
 
+        // тут новая домашка
+
+        System.out.println();
+        System.out.println("ДЗ №13");
+        System.out.println(it);
+        System.out.println(harryPotter);
+        System.out.println("результат сравнения книг " + harryPotter.getTitle() + " и " + it.getTitle() + ": " + harryPotter.equals(it));
+        System.out.println("хеш код для It: " + it.hashCode());
+        System.out.println("хеш код для Harry Potter: " + harryPotter.hashCode());
+
+
     }
 }
